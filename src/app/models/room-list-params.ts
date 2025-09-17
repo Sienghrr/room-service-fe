@@ -4,4 +4,6 @@ export interface RoomListParams {
   sort?:string
   roomType?:string
   propertyType?:string
+  priceMin : number | null
+  priceMax : number | null
 }
